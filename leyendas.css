@@ -1,0 +1,174 @@
+
+/** Url fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap');
+/** Url fonts **/
+
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  background-image:url(../IMAGENES/fondoyu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+  /** Url fonts ???????????????????????????????????**
+
+.header{
+  position: relative;
+	margin: 10px auto 0;
+	width: 98%;
+	height: 280px;
+  background: linear-gradient(90deg, #000, #323232); 
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+  /** Url fonts ???????????????????????????????????**/
+
+/** Url fonts **/
+.container {
+  width: 100%;
+  max-width: 1100px;
+  overflow: hidden;
+  margin: auto;
+  padding: 2.5px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leyendas-nav-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
+.leyendas {
+  letter-spacing: 15px;
+  font-size: 1.3em;
+}
+
+/*!----Inicio borde animado cabecera----->*/
+.contenedor-head {
+	position: relative;
+	margin: 20px auto ;
+	width: 108%;
+	height: 280px;
+  background: linear-gradient(90deg, #000, #323232); 
+}
+
+.animate-bg:before, .animate-bg:after {
+	content: '';
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	background: linear-gradient(120deg, #79fb00, #ab4db8, #ffe600, #62dfd8,  
+	#68c775, #acfcc4,#ff6600, #00c3ff, #F4c2e4,#adad02);
+	background-size: 300%;
+	width: calc(100% + 16px);
+	height: calc(100% + 16px);
+	z-index: -1;
+	animation: BGgradient 15s ease infinite; 
+}
+
+@keyframes BGgradient {
+	0% {
+		background-position: 0% 200%;
+	}
+	50% {
+		background-position: 200% 0%;
+	}
+	100% {
+		background-position: 0% 330%;
+	}
+}
+/*!----Final borde animado cabecera ----->*/
+
+
+
+/*!--------- INICIO direccionales hacia abajo--------->*/
+
+.pimienta {
+  text-align: center;
+}
+
+.pimienta a {
+  padding: 7px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover {
+  color: blueviolet;
+}
+/*!--------- FINAL direccionales --------->*/
+
+
+
+/*!---- Inicio hacia arriba footer scrool button-up -------->*/
+
+.lierlis {
+  scroll-behavior: smooth;
+}
+
+.btn-scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background: #030200;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+  transform: translateY(100px);
+  transition: 0.3s;
+}
+
+.btn-scrolltop-on {
+  transform: translateY(0);
+}
+/*!------ Final arriba footer scrool button-up ------->*/
+
+
+/*!----INICIO  FOOTER!----->*/
+
+.footer {
+  background-color: hwb(41 7% 8% / 0.6);
+  margin-top: 0%;
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.footer_p{
+  color: #000;
+  text-align: center;
+}
+
+.footer_p2{
+  color: #000;
+  text-align: center;
+}
+/*!--------- FINAL  FOOTER --------------->*/
